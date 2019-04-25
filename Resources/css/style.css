@@ -1,0 +1,726 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /*border: solid 1px red;*/
+}
+/* navigation-desktop */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /*border: solid 1px red;*/
+  width: 100%;
+  height: 64px;
+
+}
+
+.headermobile {
+  display: none;
+}
+
+.leftnav {
+  display: flex;
+  align-items: center;
+}
+
+.rightnav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  margin-left: 24px;
+  margin-right: 2px;
+  height: 45px;
+}
+
+span {
+  display: flex;
+  color: grey;
+  font-size: 24px;
+  font-family: verdana;
+
+}
+
+strong {
+  display: flex;
+  font-weight: bold;
+  color: black;
+}
+
+ul  {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  margin-right: 24px;
+  font-family: georgia;
+}
+
+li {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+/* navigation-desktop */
+
+.first {
+  display: flex;
+  width: 100%;
+  background-color: lightgrey;
+  }
+
+.firstmobile {
+  display: none;
+}
+
+.girlstable {
+  display: flex;
+  width: 60%;
+  height: 500px;
+  margin: 32px 24px;
+  border-radius: 2px;
+  background-image: url("../../resources/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textmobile {
+  display: none;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 24px;
+  width: 30%;
+  min-width: 300px;
+  }
+
+h1 {
+  display: flex;
+  font-size: 48px;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+
+h2 {
+  display: flex;
+  font-size: 18px;
+  font-family: verdana;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.starthere {
+  display: flex;
+  align-self: flex-start;
+  color: white;
+  background-color: #404040;
+  margin-top: 20px;
+  padding: 8px 80px;
+}
+
+.startlink {
+  color: white;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+
+
+
+.second {
+  display: flex;
+  width: 100%;
+/*border: dotted 1px red;*/
+  }
+
+.guyreading {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  /*border: solid 1px red*/
+}
+
+.middlepicture {
+  display: flex;
+  background-image: url("../../resources/images/information-main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 350px;
+  margin-left: 24px;
+  margin-top: 32px;
+  /*border: solid 1px red;*/
+}
+
+.guyreading h1 {
+  display: flex;
+  margin: 24px 24px 24px 24px;
+  /*border: solid 1px red;*/
+  font-size: 30px;
+  max-width: 650px;
+}
+
+.guyreading p {
+  display: flex;
+  font-family: verdana;
+  text-align: justify;
+  color: grey;
+  margin-left: 24px;
+  max-width: 650px;
+  line-height: 1.5;
+}
+
+.guyreading span {
+  display: flex;
+  margin: 32px 24px;
+  font-size: 16px;
+  color: black;
+}
+
+.rightsidemobile {
+  display: none;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+  /*border: solid 1px red;*/
+}
+
+
+.stories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 24px;
+  width: 95%;
+  min-width: 350px;
+  height: 550px;
+  max-height: 600px;
+  /*border: solid blue 1px;*/
+  border-left: 1px solid lightgray;
+
+
+}
+
+.stories img {
+  display: flex;
+  width: 35%;
+  max-width: 35%;
+  min-width: 150px;
+  height: auto;
+  margin: 16px 16px;
+}
+
+.story1 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  border-bottom: 4px solid lightgray;
+
+}
+
+
+.story2 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  border-bottom: 4px solid lightgray;
+
+}
+
+
+.story3 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  background-color: lightgray;
+
+}
+
+.storytext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.storytext h3{
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  color: #404040;
+  margin-bottom: 8px;
+}
+
+.storytext h4{
+  display: flex;
+  font-family: Helvetica;
+  font-size: 14x;
+  font-weight: 200;
+  color: #404040;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.storytext a{
+  display: flex;
+  font-family: Helvetica;
+  font-size: 14x;
+  font-weight: 200;
+  color: darkblue;
+
+  line-height: 1.5;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.third h1{
+  display: flex;
+  font-family: verdana;
+  font-size: 2.25rem;
+  margin: 32px auto;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin-left: 72px;
+  margin-right: 72px;
+
+}
+
+.subject {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+
+}
+
+.subject img {
+  display: flex;
+  height: auto;
+  width: 300px;
+}
+
+.subject h3 {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 16px;
+  font-size: 1.5rem;
+  font-family: Verdana;
+}
+
+.subject h4 {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 16px;
+  font-size: 0.9rem;
+  font-family: Verdana;
+
+}
+
+.subject h5 {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-bottom: 24px;
+  font-size: 0.9rem;
+  font-family: Verdana;
+    max-width: 250px;
+}
+
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin-left: 72px;
+  margin-right: 72px;
+  margin-top: 12px;
+  margin-bottom: 48px;
+
+}
+
+
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid blue;*/
+
+}
+
+.fourth h1{
+  display: flex;
+  font-family: verdana;
+  font-size: 2.25rem;
+  margin: 32px auto;
+}
+
+.last-content {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  /*border: 1px solid blue;*/
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-right: 24px;
+  /*border: 1px solid blue;*/
+
+}
+
+video {
+  display: flex;
+  width: 100%;
+
+}
+
+.left-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  /*border: 1px solid blue;*/
+}
+
+.left-text h3{
+  display: flex;
+  flex-direction: column;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 24px;
+  margin-bottom: 8px;
+/*  border: 1px solid blue;*/
+}
+
+.left-text p {
+  display: flex;
+  font-family: verdana;
+  color: grey;
+  font-size: 14px;
+  max-width: 650px;
+  line-height: 1.5;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-width: 400px;
+  /*border: 1px solid red;*/
+  margin-right: 12px;
+}
+
+.story4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: lightgray;
+
+}
+
+.story5 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+
+}
+
+.story4 img {
+  display: flex;
+  width: 35%;
+  min-width: 150px;
+  height: 150px;
+  margin: 16px 16px;
+}
+
+.story5 img {
+  display: flex;
+  width: 35%;
+  min-width: 150px;
+  height: 150px;
+  margin: 16px 16px;
+}
+
+.storytext {
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  justify-content: space-between;
+  font-size: 16px;
+
+}
+
+footer span {
+  display: flex;
+  font-size: 12px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.bottomnav {
+  display: flex;
+  flex-direction: row;
+  font-size: 8px;
+}
+
+
+
+.bottomnav a{
+    font-size: 12px;
+    margin-left: 8px;
+    margin-right: 24px;
+    color: gray;
+}
+
+.mobile {
+  display: none;
+}
+
+.bannermobile {
+  display: none;
+}
+
+.storiesmobile {
+  display: none;
+}
+
+.exhibits {
+  display: none;
+}
+
+.learningmobile {
+  display: none;
+}
+
+.graybox {
+  display: none;
+}
+
+.bottombar {
+  display: none;
+}
+
+@media only screen and (min-width : 1px) and (max-width : 700px) {
+
+  header {
+    display: none;
+  }
+
+  .entire {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headermobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+    background-color: white;
+  }
+
+  .bannermobile {
+    display: flex;
+    background-image: url("../../resources/images/banner.jpg");
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+
+  }
+
+  .graybox {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+  }
+
+  .graybox h1{
+    display: flex;
+    color: #404040;
+    margin: 32px 16px;
+
+  }
+
+  .graybox h2{
+    display: flex;
+    margin: 24px 16px;
+  }
+
+  .graybox .button{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+    padding: 14px;
+    background-color: #404040;
+    margin-bottom: 32px;
+    border-radius: 2px;
+  }
+
+  .graybox .button a{
+    color: white;
+  }
+
+
+  .storiesmobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .storymobile {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+  }
+
+  .storymobile img {
+    display: flex;
+    margin-top: 24px;
+    border-radius: 2px;
+
+  }
+
+  .storymobile h3{
+    display: flex;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-left: 16px;
+  }
+
+  .storymobile p{
+    display: flex;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 16px;
+  }
+
+  .storymobile a{
+    display: flex;
+    font-size: 16px;
+    color: blue;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-left: 16px;
+    margin-bottom: 32px;
+  }
+
+
+  .learningmobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 24px;
+  }
+
+  .learningmobile h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .topic {
+    display: flex;
+    justify-content: justify;
+    width: 90%;
+    background-color: lightgray;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+  }
+
+  .exhibits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .exhibits h1{
+    display: flex;
+    margin-top: 32px;
+  }
+
+  .exhibits video {
+    display: flex;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .bottombar {
+    display: flex;
+    margin-top: 16px;
+  }
+
+  .bottombar span {
+    font-size: 14px;
+    margin-left: 16px;
+    margin-bottom: 36px;
+  }
+}
